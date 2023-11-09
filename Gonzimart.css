@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+/* First Navigation */
+
+.topNav{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text]{
+    padding: 10px 20px;
+}
+
+.categoriesSearchBar{
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+/* Second navigation css */
+
+.navBar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    gap: 100px;
+    align-items: center;
+}
+
+.navBar1{
+    display: flex;
+    gap: 25px;
+}
+.navBar1 select{
+    background-color: none;
+}
+
+.navBar2{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.iconSize{
+    height: 30px;
+    width: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarButton{
+    cursor: pointer;
+    border-style: none;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+/* home page css */
+
+.homePage {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.homePage1{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    background-color: rgb(240, 232, 232);
+    
+}
+.homePage2{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+    background-color: rgb(246, 246, 246);
+}
+
+.heading{
+    position: absolute;
+    left: 250px;
+    top:200px;
+    width: 67%;
+    z-index: 1;
+    background-color: rgb(232, 232, 232);
+    padding: 30px 30px;
+}
+
+#buttonAllCollection{
+    border-style: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+/* # images section */
+
+.threeImagesSize{
+    height: 500px;
+    width: 450px;
+}
+
+.threeImages{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+
+.image1{
+    background-color: black;
+    height: 500px;
+}
+
+.threeImagesSize:hover{
+    opacity: 0.7;
+}
+
+.hoverMain{
+    position: relative;
+}
+
+.hide{
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+
+/* Best selling products */
+
+.bestSellingProducts{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#h1{
+    text-decoration: underline;
+    margin-bottom: 50px;
+
+}
+
+.buttons{
+    display: inline-flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.multipleButtons{
+    border: 2px solid black;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.blackButton{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* Products section */
+
+.dresses{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.dressWithPrice:hover{
+    color: blue;
+}
+
+.dressImageStyleContainer{
+    height: 350px;
+}
+
+.dressImageStyle{
+    height: 300px;
+    width: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dressImageStyle:hover{
+    height: 350px;
+    width: 300px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+/* Load more button */
+
+.loadmore{
+
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#loadMoreBtnAlignment{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#loadMoreBtnAlignment:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* Sale of products */
+.details{
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+    margin-top: 50px;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.detailsImageSize{
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    display: block;
+}
+
+#shopNowBtn{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 20px;
+    font-size: large;
+    border-radius: 5px;
+}
+.customerReviewsMainDiv{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.textBold{
+    font-size: x-large;
+    font-weight:bolder;
+}
+
+.marginGap{
+    margin-top: 10px;
+}
+
+
+.saleEventWithImage{
+    display: flex;
+    margin-top: 100px;
+    gap: 200px;
+    background-color: rgb(232, 232, 232);
+    height: 500px;
+}
+
+.saleEventImgSize{
+    height: 500px;
+    width: 600px;
+}
+
+.saleEventAligningMainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Footer */
+
+
+.FooterMainContainer{
+    background-color: black;
+    color: white;
+}
+
+.Footer2{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterImageSize{
+    height: 40px;
+    width: 40px;
+}
+
+.Footer2Sub{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items:center;
+}
+
+#StripeIconSize{
+    height: 27px;
+    width: 40px;
+}
+
+#MasterCardIconSize{
+    height: 50px;
+    width: 40px;
+    margin-bottom: 6px;
+}
+
+.LanguageAndCurrencyButton{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: larger;
+}
+
+.linkStyle{
+    text-decoration: none;
+    color: white;
+}
+
+.linkStyle:hover{
+    color: grey;
+}
+
+#shopNowBtn:hover{
+    color: black;
+    background-color: white;
+    padding: 19.4px 50px;
+    margin-top: 50px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+#loadMoreBtnAlignment:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.dressImageStyle{
+    height: 300px;
+    width: 250px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dressImageStyle:hover{
+    height: 350px;
+    width: 300px;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.dressImageStyleContainer{
+    height: 350px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.listFontSize{
+    font-weight: 100;
+}
+
+.marginGapBottom10{
+    margin-bottom: 30px;
+}
